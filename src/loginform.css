@@ -1,0 +1,107 @@
+.container1{
+	background: #19123b;
+}
+.card3{
+	border: none;
+	border-top: 5px solid rgb(176,106,252);
+	background:#212042;
+	color:#575578;
+}
+
+#frm{
+	font-size: 20px;
+	font-weight: 500;
+}
+#social{
+text-decoration: none;
+}
+.fab{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	background: #2a284d;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	transition: all 0.2s linear;
+	
+	
+}
+.fab:hover{
+	cursor: pointer;
+	background:#aaafff;
+}
+.fa-twitter{
+	color: #56ABEC;
+}
+.fa-facebook{
+	color:#1775F1;
+}
+.fa-instagram{
+	color: #fe4164;
+}
+.division{
+	width: 100%;
+	/*text-align: center;*/
+	margin:30px auto 20px;
+}
+.division span{
+	font-weight: 500;
+	font-size: 25px;
+}
+.myform{
+	padding:0 25px 0 35px;
+}
+.form-control1{
+	border:1px solid #57557a;
+	border-radius: 2px;
+	background:#212042;
+	margin-bottom: 20px;
+	letter-spacing:1px;
+}
+.form-control1:focus{
+	border:1px solid #57557a;
+	border-radius: 5px;
+	background:#212042;
+	letter-spacing:1px;
+	box-shadow: none;
+	color: #fff;
+
+}
+.bn{
+	text-decoration: underline;
+
+}
+.bn:hover{
+	cursor: pointer;
+}
+.form-check-input{
+	width: 1rem !important;
+	height: 1rem !important;
+	/*margin-top: 5px;*/
+}
+.btn-primary{
+	background: linear-gradient(135deg,rgba(175,106,252,1) 39%,rgba(116,17,225,1)100%);
+	border:none;
+	border-radius: 50px;
+} 
+.small{
+	color: #f2ceff;
+}
+.register{
+	color: #1775F1;
+	text-decoration: none;
+}
+.register:hover{
+	text-decoration: none;
+	color:white;
+}
+.modal-content{
+	background:#6F4E37 ;
+	color:#fff
+}
+.modal-body{
+	background: #432D2B;
+	color: #fff;
+}

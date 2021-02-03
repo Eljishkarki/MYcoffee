@@ -1,0 +1,30 @@
+import React from 'react'
+
+function Notification() {
+    return (
+        <div>
+            <div aria-live="polite" aria-atomic="true" style={{position: 'relative', minHeight: '200px'}}>
+  
+  <div style={{position: 'absolute', top: '0', right: '0'}}>
+
+    
+    <div className="toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div className="toast-header">
+        <img src="..." class="rounded mr-2" alt="..."/>
+        <strong class="mr-auto">Bootstrap</strong>
+        <small class="text-muted">just now</small>
+        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div className="toast-body">
+        See? Just like this.
+      </div>
+    </div>
+</div>
+</div>
+        </div>
+    )
+}
+
+export default Notification
